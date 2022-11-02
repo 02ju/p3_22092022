@@ -398,6 +398,10 @@ button a {
     color: #6b6b6b;
 }
 
+.fonc-card-icon i.fa.fa-mobile:hover {
+    color: #9356DC;
+}
+
 .fonc-card-text {
     font-size: 14px;
     color: black;
