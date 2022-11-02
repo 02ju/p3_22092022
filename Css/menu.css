@@ -359,9 +359,6 @@ baska
     margin-left: 20px;
 }
 
-
-  /*francaise*/
-
 .header-page3 {
     width: 100%;
     height: 40px;
@@ -455,6 +452,11 @@ baska
     opacity: 1; 
 }
 
+.plats-card:hover .fa-check-circle {
+    transform: rotate(-1turn);
+    transition: transform 1500ms ease-in-out;
+}
+
 .plats-card:hover .prix {
     transform: translate(-100%,0);
     transition: all 0.5s ease-in-out;
@@ -543,6 +545,11 @@ baska
     position: relative; 
     opacity: 1; 
     margin-right: 10px;
+}
+
+.desserts-card:hover .fa-check-circle {
+    transform: rotate(-1turn);
+    transition: transform 1500ms ease-in-out;
 }
 
 
