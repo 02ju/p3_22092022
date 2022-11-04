@@ -594,7 +594,7 @@ baska
     margin-bottom: 20px;
 }
 
-.button2 {
+.but2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -608,12 +608,12 @@ baska
     border: none;
 }
 
-.button2:hover {
+.but2:hover {
     background: linear-gradient(to bottom, rgba(255, 121, 218, 0.8) 0%, rgba(147, 86, 220, 0.8) 100%);
     box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 40%);
 }
 
-.button2-text {
+.but2-text {
     color: #fff;
     font-size: 16px;
     font-weight: 500;
