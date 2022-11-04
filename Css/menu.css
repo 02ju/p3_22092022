@@ -213,6 +213,7 @@ baska
     flex-direction: column;
     flex: 1;
     width: 100%;
+    padding: 10px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -221,22 +222,24 @@ baska
 .card-h3 {
     font-size: 19px;
     font-weight: 500;
-    margin: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .card-p {
     font-size: 14px;
-    margin: 5px 0 15px 10px;
-    overflow: hidden;
     text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .prix {
     display: flex;
     align-items: flex-end;
     font-weight: 500;
-    height: 66px;
-    margin-left: auto;
+    height: 52px;
+    margin-left: 5px;
 }
 
 .entrees-card {
@@ -429,6 +432,7 @@ baska
     flex-direction: column;
     flex: 1;
     width: 100%;
+    padding: 10px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -518,6 +522,7 @@ baska
     flex-direction: column;
     flex: 1;
     width: 100%;
+    padding: 10px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
