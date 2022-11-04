@@ -205,7 +205,6 @@ header {
     justify-content: center;
     margin: auto;
     width: 200px;
-    
 }
 
 header img {
@@ -296,7 +295,7 @@ nav {
     padding-top: 15px;
 }
 
-button {
+.button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -320,13 +319,13 @@ button {
     transition-duration: 1s;
 }
 
-button:hover {
+.button:hover {
     box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 40%);
     background: linear-gradient(to bottom, rgba(255, 121, 218, 0.8) 0%, rgba(147, 86, 220, 0.8) 100%); 
     transform: scale(1.15);
 }
 
-button a {
+.button a {
     color: white;
     display: flex;
     flex-wrap: wrap;
@@ -554,39 +553,8 @@ button a {
 }
 */
 
-.button {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
 
-.but {
-    display: grid;
-    place-items: center;
-    margin-bottom: 20px;
-}
 
-.but2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 50px;
-    width: 200px;
-    background: linear-gradient(#FF79DA,#9356DC);
-    border-radius: 100px;
-    box-shadow: 1px 1px 10px 1px rgba(0,0,0,20%) ;
-    cursor: pointer;
-    border: none;
-    margin-bottom: 40px;
-}
-
-.but2:hover:hover {
-    background: linear-gradient(to bottom, rgba(255, 121, 218, 0.8) 0%, rgba(147, 86, 220, 0.8) 100%);
-    box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 40%);
-}
 
 .but2-text {
     color: #fff;

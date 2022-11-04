@@ -227,6 +227,18 @@ baska
 .card-p {
     font-size: 14px;
     margin: 5px 0 15px 10px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.entrees-card:hover .card-p {
+    transform: translate(-10%,0);
+    transition: all 0.5s ease-in-out;
+    position: relative; 
+    opacity: 1; 
+
 }
 
 .prix {
@@ -253,8 +265,24 @@ baska
     white-space: nowrap;
     text-overflow: ellipsis;
     cursor: pointer;
-    animation: slide-in-bottom 2s ease 0s 1 normal none;
+    animation: itemAppear .6s;
+    animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
+    animation-fill-mode: both;
+    transform: scale(0);
 }
+
+@keyframes itemAppear {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+/*animation: slide-in-bottom 2s ease 0s 1 normal none; 
+
 
 .entrees-card .card-1 {
     animation: slide-in-bottom 1s ease 0s 1 normal none;
@@ -264,9 +292,10 @@ baska
     animation: slide-in-bottom 1.5s ease 0s 1 normal none;
 }
 
-.entrees-card .card-2 {
+.entrees-card .card-3 {
     animation: slide-in-bottom 2s ease 0s 1 normal none;
 }
+
 
 @keyframes slide-in-bottom {
     0% {
@@ -278,7 +307,7 @@ baska
         opacity: 1;
     }
 }
-
+*/
 
 
 .card-icon {
@@ -431,17 +460,18 @@ baska
     white-space: nowrap;
     text-overflow: ellipsis;
     cursor: pointer;
-    animation: slide-in-bottom 2s ease 0s 1 normal none;
+    animation: itemAppear .6s;
+    animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
+    animation-fill-mode: both;
+    transform: scale(0);
 }
 
-@keyframes slide-in-bottom {
+@keyframes itemAppear {
     0% {
-        transform: translateY(1000px);
-        opacity: 0;
+        transform: scale(0);
     }
     100% {
-        transform: translateY(0);
-        opacity: 1;
+        transform: scale(1);
     }
 }
  
@@ -518,17 +548,18 @@ baska
     white-space: nowrap;
     text-overflow: ellipsis;
     cursor: pointer;
-    animation: slide-in-bottom 2s ease 0s 1 normal none;
+    animation: itemAppear .6s;
+    animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
+    animation-fill-mode: both;
+    transform: scale(0);
 }
 
-@keyframes slide-in-bottom {
+@keyframes itemAppear {
     0% {
-        transform: translateY(1000px);
-        opacity: 0;
+        transform: scale(0);
     }
     100% {
-        transform: translateY(0);
-        opacity: 1;
+        transform: scale(1);
     }
 }
  
