@@ -19,6 +19,13 @@ a {
     color: black;
 }
 
+.menus {
+    display: grid;
+    height: 100%;
+    width: 100%;
+}
+
+
 .header-page {
     position: relative;
     z-index: 1;
@@ -39,7 +46,6 @@ a {
     margin-bottom: 15px;
 }
 
-
 .header-page-icon {
     width: 60px;
     display: flex;
@@ -47,7 +53,24 @@ a {
     justify-self: center;
 }
 
-.logo-page {
+.header-logo {
+    display: grid;
+    place-items: center;
+    margin: auto;
+    padding-right: 30px;
+}
+.logo {
+    display: grid;
+    place-items: center;
+    padding-right: 40px;
+}
+
+.header-text {
+    font-family: Shrikhand, "cursive";
+    font-size: 38px;
+}
+
+/*.logo-page {
     margin: auto;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -60,9 +83,13 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
+}  */
+
+.background-section {
+    width: 100%;
 }
 
-#background-section {
+.background-card {
     width: 100%;
 }
 
@@ -70,11 +97,10 @@ a {
     height: 300px;
     width: 100%;
     object-fit: cover;
-    position: absolute;
 }
 
 .main {
-    margin-top: 290px;
+    margin-top: -20px;
     border-radius: 20px 20px 0px 0px;
     background-color: #fff;
     top: -10px;
