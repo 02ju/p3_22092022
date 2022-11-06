@@ -70,21 +70,6 @@ a {
     font-size: 38px;
 }
 
-/*.logo-page {
-    margin: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    width: 300px;
-    text-align: center;
-}
-
-.logo-page-img {
-    width: 250px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}  */
-
 .background-section {
     width: 100%;
 }
@@ -102,11 +87,11 @@ a {
 .main {
     margin-top: -20px;
     border-radius: 20px 20px 0px 0px;
-    background-color: #fff;
+    background-color: #f6f6f6;
     top: -10px;
     z-index: 1;
     position: relative;
-    padding: 20px 0px 30px 0px;
+    padding: 20px 0px 0px 0px;
 }
 
 .main-header {
@@ -143,7 +128,7 @@ a {
     height: 20px;
     position: absolute;
     right: 10px;
-    background: #fff;  
+    background: #f6f6f6;  
     transition-duration: .5s;
 }
 
@@ -239,7 +224,7 @@ baska
     flex-direction: column;
     flex: 1;
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -248,6 +233,7 @@ baska
 .card-h3 {
     font-size: 19px;
     font-weight: 500;
+    margin-bottom: 5px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
@@ -458,7 +444,7 @@ baska
     flex-direction: column;
     flex: 1;
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -548,7 +534,7 @@ baska
     flex-direction: column;
     flex: 1;
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -617,7 +603,8 @@ baska
 .but {
     display: grid;
     place-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .but2 {
@@ -648,18 +635,17 @@ baska
 .footer {
     background: #353535;
     width: 100%;
-    padding-top: 25px;
 }
 
 .footer-down {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: -16px;
 }
 
 .footer-cards {
     margin-left: 40px;
+    padding-bottom: 35px;
 }
 
 .footer-header {
@@ -686,11 +672,11 @@ baska
 }
 
 .footer-icon {
-    font-size: 12px;
+    font-size: 14px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-left: -0px;
+    padding-right: 8px;
 
 }
 

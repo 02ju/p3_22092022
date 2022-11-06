@@ -14,7 +14,7 @@ h1
 
 body, 
 html {
-    font-family: "Roboto",sans-serif;
+    font-family: "Roboto", sans-serif;
     margin-top: 5px;
 }
 
@@ -219,7 +219,6 @@ nav {
 }
 
 #search-input a {
-    font: 20px solid;
     margin: 10px;
     align-items: center;
     text-align: center;
@@ -546,18 +545,17 @@ nav {
     font-weight: 500;
 }
 
-
-
 .footer {
     background: #353535;
     width: 100%;
+    padding-bottom: 30px;
+    padding-top: 8px;
 }
 
 .footer-down {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: -16px;
 }
 
 .footer-cards {
@@ -593,7 +591,6 @@ nav {
     align-items: center;
     text-align: center;
     margin-left: -8px;
-
 }
 
 .footer-h5 {
