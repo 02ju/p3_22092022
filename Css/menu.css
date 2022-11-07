@@ -20,11 +20,12 @@ a {
     color: black;
 }
 
+/*  
 .menus {
     display: grid;
     height: 100%;
     width: 100%;
-}
+ } */
 
 
 .header-page {
@@ -92,7 +93,7 @@ a {
     top: -10px;
     z-index: 1;
     position: relative;
-    padding: 20px 0px 0px 0px;
+    padding: 20px 10px 0px 0px;
 }
 
 .main-section {
@@ -194,12 +195,13 @@ baska
 
 
 .menu {
-    margin: 10px 10px;
-    padding: 10px 10px;
+   padding-bottom: 10px; 
+
 }
 
 .entrees {
-    margin: 10px;
+    margin: 0px 5px;
+    padding: 0px 5px;
 }
 
 .entrees-header h2 {
@@ -422,6 +424,11 @@ baska
 }
 
 /* plats*/
+.plats {
+    margin: 0px 5px;
+    padding: 0px 5px;
+}
+
 .plats-header h2 {
     margin-left: 2px;
     position: relative;
@@ -698,6 +705,7 @@ baska
     margin-right: 5px;
     font-size: 16px;
 }
+
 
 
 @media screen and (min-width: 992px) {
