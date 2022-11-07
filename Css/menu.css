@@ -20,12 +20,12 @@ a {
     color: black;
 }
 
-/*  
+
 .menus {
     display: grid;
     height: 100%;
     width: 100%;
- } */
+ } 
 
 
 .header-page {
@@ -257,7 +257,7 @@ baska
     display: flex;
     align-items: flex-end;
     font-weight: 500;
-    height: 52px;
+    height: 60px;
     margin-left: 5px;
 }
 
@@ -514,10 +514,13 @@ baska
     margin-right: 10px;
 }
 
-
-
-
 /*desserts*/
+
+.desserts {
+    margin: 0px 5px;
+    padding: 0px 5px;
+}
+
 .desserts-header h2 {
     margin-left: 2px;
     position: relative;
@@ -706,6 +709,11 @@ baska
     font-size: 16px;
 }
 
+@media screen and (max-width:767px) and (min-width:300px) {
+    .main {
+        padding: 20px 10px 0 0;
+    }
+}
 
 
 @media screen and (min-width: 992px) {
@@ -715,8 +723,8 @@ baska
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 10px;
         row-gap: 10px;
-        margin: 10px 10px;
-        padding: 10px 10px;
+        /*margin: 10px 10px;
+        padding: 10px 10px; */
     }
 
     
