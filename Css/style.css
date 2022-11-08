@@ -216,9 +216,11 @@ nav {
     background-color: #eaeaea;
     width: 100%;
     height: 40px;
+    display: flex;
+    justify-content: center;
 }
 
-#search-input a {
+.search-input-text {
     margin: 10px;
     align-items: center;
     text-align: center;
@@ -251,14 +253,16 @@ nav {
 .recherche-section-h2 {
     padding: 20px;
     text-align: center;
+    font-size: 28px;
 }
 
 #recherche-section p {
     text-align: center;
     justify-content: center;
     display: flex;
-    font-size: 26px;
+    font-size: 18px;
     padding: 15px;
+    opacity: 0.75;
 }
 
 .restaurants-title {
@@ -287,8 +291,8 @@ nav {
     box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 20%);
     cursor: pointer;
     border: none;
-    height: 58px;
-    width: 270px;
+    height: 48px;
+    width: 240px;
     font-size: 18px;
     font-weight: 500;
     color: #fff;
@@ -312,8 +316,7 @@ nav {
     color: white;
     display: flex;
     flex-wrap: wrap;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 16px;
     margin: auto;
 }
 
@@ -385,7 +388,8 @@ nav {
 }
 
 .fonc-card-text {
-    font-size: 14px;
+    font-weight: 500;
+    font-size: 16px;
     color: black;
 }
 
@@ -598,7 +602,8 @@ nav {
     align-items: center;
     justify-content: center;
     text-align: center;
-
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .footer-card a {

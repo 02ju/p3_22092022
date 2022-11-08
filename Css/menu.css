@@ -13,6 +13,7 @@ html {
 
 h1 {
     font-family: Shrikhand, "cursive";
+    font-size: 29px;
 }
 
 a {
@@ -86,6 +87,24 @@ a {
     object-fit: cover;
 }
 
+.back-img-delice {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.back-img-palette {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.back-img-note {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
 .main {
     margin-top: -20px;
     border-radius: 20px 20px 0px 0px;
@@ -146,52 +165,6 @@ a {
 .main-header-icon1 i,.main-header-icon2 i {
     font-size: 27px;
 }
-
-/*
-.main-header-icon1 {
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    right: 10px;
-    z-index: 1;
-    cursor: pointer;
-}
-
-baska
-.main-header-icon1:hover {
-    background: -webkit-linear-gradient(#ff79da, #9356dc);
-    display: block;
-    font-weight: bold;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.main-header:hover .main-header-icon2 {
-    opacity: 1;
-    color: transparent;
-    font-size: 27px;
-    background-clip: text;
-    -webkit-background-clip: text;
-    background-image: -webkit-linear-gradient(#FF79DA,#9356DC) ;
-    background-clip: calc(1 1 1);
-    background-color: #FF79DA,#9356DC;
-}
-.main-header-icon2 {
-    opacity: 0;
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    right: 10px;
-}
-.main-header-icon2 i {
-    font-size: 27px;
-}  */
 
 
 .menu {
@@ -277,37 +250,9 @@ baska
     white-space: nowrap;
     text-overflow: ellipsis;
     cursor: pointer;
-    animation: itemAppear .6s;
-    animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
-    animation-fill-mode: both;
-    transform: scale(0);
+    animation: slide-in-bottom 2s ease 0s 1 normal none; 
+    
 }
-
-@keyframes itemAppear {
-    0% {
-        transform: scale(0);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-
-
-/*animation: slide-in-bottom 2s ease 0s 1 normal none; 
-
-
-.entrees-card .card-1 {
-    animation: slide-in-bottom 1s ease 0s 1 normal none;
-}
-
-.entrees-card .card-2 {
-    animation: slide-in-bottom 1.5s ease 0s 1 normal none;
-}
-
-.entrees-card .card-3 {
-    animation: slide-in-bottom 2s ease 0s 1 normal none;
-}
-
 
 @keyframes slide-in-bottom {
     0% {
@@ -317,6 +262,22 @@ baska
     100% {
         transform: translateY(0);
         opacity: 1;
+    }
+}
+
+
+/*
+animation: itemAppear .6s;
+animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
+animation-fill-mode: both;
+transform: scale(0);
+
+@keyframes itemAppear {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
     }
 }
 */
@@ -479,20 +440,13 @@ baska
     white-space: nowrap;
     text-overflow: ellipsis;
     cursor: pointer;
-    animation: itemAppear .6s;
+    animation: slide-in-bottom 2s ease 0s 1 normal none; 
     animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
     animation-fill-mode: both;
     transform: scale(0);
 }
 
-@keyframes itemAppear {
-    0% {
-        transform: scale(0);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
+
  
 .plats-card:hover .card-icon {
     transform: translate(-50%,0);
@@ -571,20 +525,12 @@ baska
     white-space: nowrap;
     text-overflow: ellipsis;
     cursor: pointer;
-    animation: itemAppear .6s;
+    animation: slide-in-bottom 2s ease 0s 1 normal none; 
     animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
     animation-fill-mode: both;
     transform: scale(0);
 }
 
-@keyframes itemAppear {
-    0% {
-        transform: scale(0);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
  
 .desserts-card:hover .card-icon {
     transform: translate(-50%,0);
@@ -618,8 +564,8 @@ baska
 .but {
     display: grid;
     place-items: center;
-    margin-bottom: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .but2 {
@@ -627,8 +573,8 @@ baska
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 50px;
-    width: 200px;
+    height: 55px;
+    width: 215px;
     background: linear-gradient(#FF79DA,#9356DC);
     border-radius: 100px;
     box-shadow: 1px 1px 10px 1px rgba(0,0,0,20%) ;
@@ -650,6 +596,7 @@ baska
 .footer {
     background: #353535;
     width: 100%;
+    margin-top: -10px;
 }
 
 .footer-down {
@@ -668,13 +615,13 @@ baska
     color: #fff;
     font-family: "Shrikhand",cursive;
     font-size: 18px;
-    margin-top: 18px;
-    margin-bottom: 14px;
+    margin-top: 24px;
+    margin-bottom: 20px;
 }
 
 
 .footer-card {
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     display: flex;
 }
 
@@ -700,7 +647,8 @@ baska
     align-items: center;
     justify-content: center;
     text-align: center;
-
+    font-size: 18px;
+    font-weight: 300;
 }
 
 .footer-card a {
@@ -712,6 +660,10 @@ baska
 @media screen and (max-width:767px) and (min-width:300px) {
     .main {
         padding: 20px 10px 0 0;
+    }
+
+    .menus {
+        display: block;
     }
 }
 
@@ -725,6 +677,10 @@ baska
         row-gap: 10px;
         /*margin: 10px 10px;
         padding: 10px 10px; */
+    }
+
+    .menus {
+        display: grid;
     }
 
     
