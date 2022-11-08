@@ -441,11 +441,7 @@ transform: scale(0);
     text-overflow: ellipsis;
     cursor: pointer;
     animation: slide-in-bottom 2s ease 0s 1 normal none; 
-    animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
-    animation-fill-mode: both;
-    transform: scale(0);
 }
-
 
  
 .plats-card:hover .card-icon {
@@ -526,9 +522,6 @@ transform: scale(0);
     text-overflow: ellipsis;
     cursor: pointer;
     animation: slide-in-bottom 2s ease 0s 1 normal none; 
-    animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
-    animation-fill-mode: both;
-    transform: scale(0);
 }
 
  
