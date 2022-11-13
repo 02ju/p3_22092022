@@ -398,8 +398,6 @@ header {
     display: flex;
 }
 
-
-
 .main-header-icon1 {
     padding: 15px;
     display: flex;
@@ -434,7 +432,6 @@ header {
 .main-header-icon1 i, .main-header-icon2 i {
     font-size: 27px;
 }
-
 
 .but2-text {
     color: #fff;
@@ -478,8 +475,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 18px;
-    
+    height: 18px; 
 }
 
 .footer-icon {
@@ -516,7 +512,6 @@ header {
     row-gap: 10px;
     list-style: none;
 } 
-
 
 .restaurants-card {
     height: 210px;
@@ -555,24 +550,6 @@ header {
         grid-column-gap: 20px;
     } 
      
-}
-
-/* regler un probleme pour le version mobile pour la taille d'ecran en desous 300px */
-
-@media screen and (max-width: 300px) {
-    .fonc-card {
-        display: flex;
-        flex-flow: nowrap;
-        background-color: #f6f6f6;
-        margin: 10px;
-        margin-right: 10px;
-        height: 75px;
-        width: 100%;
-        border-radius: 20px;
-        align-items: center;
-        box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 20%);
-    }
-    
 }
 
     
