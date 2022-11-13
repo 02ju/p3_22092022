@@ -398,47 +398,13 @@ header {
     display: flex;
 }
 
-.fa-2x {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-right: 16px;
-    width: 60px;
-    position: relative;
-    transition: 0.5s;
-}
-
-.fa-2x:hover {
-    font-weight: 800;
-    background-image: linear-gradient(0turn, #FF79DA, #9356DC);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 28px;
-    transition-duration: 0.5s;
-}
-
-
-/*
-.restaurants-cards-icon .heart-empty {
-    position: absolute;
-    transition-duration: 1.3s;
-}
-
-.restaurants-cards-icon .heart-full {
-    opacity: 0;
-    transition: all 1.3s ease-in-out;
-    background-image: linear-gradient(#FF79DA #9356DC);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: rgb(0 0 0 0);
-}
-.restaurants-cards-icon1 {
-    padding: 10px;
+.main-header-icon1 {
+    padding: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 28px;
-    height: 23px;
+    width: 20px;
+    height: 20px;
     position: absolute;
     right: 10px;
     background: -webkit-linear-gradient(#ff79da, #9356dc);
@@ -446,28 +412,26 @@ header {
     -webkit-text-fill-color: transparent;   
 }
 
-.restaurants-cards-icon2 {
-    padding: 10px;
+.main-header-icon2 {
+    padding: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 28px;
-    height: 23px;
+    width: 20px;
+    height: 20px;
     position: absolute;
     right: 10px;
     background: #fff;  
-    transition-duration: .2s;
-} 
+    transition-duration: .5s;
+}
 
-.restaurants-cards-icon2 {
+.main-header-icon2:hover {
     opacity: 0%;
 }
-.restaurants-cards-icon1 i, .restaurants-cards-icon2 i {
+
+.main-header-icon1 i, .main-header-icon2 i {
     font-size: 27px;
 }
-*/
-
-
 
 
 .but2-text {
@@ -539,6 +503,38 @@ header {
     font-size: 16px;
 }
 
+.fonc-section {
+    padding: 5px;
+    margin-top: 5px;
+} 
+
+.fonc-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    list-style: none;
+} 
+
+
+.restaurants-card {
+    height: 210px;
+}
+    
+.restaurants-card-img {
+    height: 155px;
+}
+
+.restaurants-card-text h4 {
+    margin-top: 5px;
+}
+
+.restaurants-card-text p {
+    margin-bottom: 5px;
+}
+    
+
+
+
 @media screen and (min-width: 992px) { 
 
     .restaurants-cards {
@@ -551,13 +547,15 @@ header {
     }
 
     .fonc-cards {
-        display: grid;
+        display: flex;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr; 
         grid-column-gap: 20px;
     } 
      
 }
+
+/* regler un probleme pour le version mobile pour la taille d'ecran en desous 300px */
 
 @media screen and (max-width: 300px) {
     .fonc-card {
@@ -575,41 +573,8 @@ header {
     
 }
 
-@media screen and (max-width: 767px) {
-
-    .fonc-section {
-        padding: 5px;
-        margin-top: 5px;
-    } 
     
-    .fonc-cards {
-        display: grid;
-        grid-template-columns: 1fr;
-        row-gap: 10px;
-        list-style: none;
-    } 
-    
-    
-    .restaurants-card {
-        height: 210px;
-    }
-        
-    .restaurants-card-img {
-        height: 155px;
-    }
-    
-    .restaurants-card-text h4 {
-        margin-top: 5px;
-    }
-    
-    .restaurants-card-text p {
-        margin-bottom: 5px;
-    }
-        
-    }
-    
-    
-    
+    /*  
 @media screen and (min-width: 768px) and(max-width: 992px) {
     
     .fonc-cards {
@@ -646,6 +611,7 @@ header {
         } 
 }
     
+*/
 
        
 

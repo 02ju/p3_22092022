@@ -231,7 +231,7 @@ a {
     align-items: flex-end;
     font-weight: 500;
     height: 60px;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 .entrees-card {
@@ -264,23 +264,6 @@ a {
         opacity: 1;
     }
 }
-
-
-/*
-animation: itemAppear .6s;
-animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
-animation-fill-mode: both;
-transform: scale(0);
-
-@keyframes itemAppear {
-    0% {
-        transform: scale(0);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-*/
 
 
 .card-icon {
@@ -440,7 +423,7 @@ transform: scale(0);
     white-space: nowrap;
     text-overflow: ellipsis;
     cursor: pointer;
-    animation: slide-in-bottom 2s ease 0s 1 normal none; 
+    animation: slide-in-bottom 3s ease 0s 1 normal none; 
 }
 
  
@@ -521,7 +504,7 @@ transform: scale(0);
     white-space: nowrap;
     text-overflow: ellipsis;
     cursor: pointer;
-    animation: slide-in-bottom 2s ease 0s 1 normal none; 
+    animation: slide-in-bottom 4s ease 0s 1 normal none; 
 }
 
  
@@ -651,8 +634,8 @@ transform: scale(0);
 }
 
 
-
-@media screen and (max-width:767px) and (min-width:300px) {
+/* regler un probleme pour le version mobile pour la taille d'ecran en desous 300px */
+/* @media screen and (max-width:767px) and (min-width:300px) {
     .main {
         padding: 20px 10px 0 0;
     }
@@ -660,25 +643,49 @@ transform: scale(0);
     .menus {
         display: block;
     }
-}
+} */
 
 
 @media screen and (min-width: 992px) {
 
     .menu {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        column-gap: 10px;
-        row-gap: 10px;
+        display: flex;
+        width: 90%;
+        justify-content: center;
+        margin-right: 10px;
         /*margin: 10px 10px;
         padding: 10px 10px; */
     }
 
-    .menus {
-        display: grid;
+    .entrees {
+        width: 30%;
+        /*margin-right: 10px; */
     }
 
+    .plats {
+        width: 30%;
+        /* margin-right: 10px; */
     
+    }
+
+    .desserts {
+        width: 30%;
+        /* margin-right: 10px; */
+    
+    }
+
+    .main-header {
+        width: 90%;
+        margin-left: 24px;
+    }
+    
+    .main-header-icon1 {
+        margin-right: 30px;
+    }
+
+    .main-header-icon2 {
+        margin-right: 30px;
+    }
 }
     
 
